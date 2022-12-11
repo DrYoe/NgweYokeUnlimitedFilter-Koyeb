@@ -161,19 +161,13 @@ async def bot_status(client,message):
                 leftperc = math.floor(quota_left / total_quota * 100)
 
                 quota_details = f"""
-
 **Heroku Account Status**
-
 > __You have **{total} hours** of free dyno quota available each month.__
-
 > __Dyno hours used this month__ ;
         - **{used} hours**  ( {usedperc}% )
-
 > __Dyno hours remaining this month__ ;
         - **{hours} hours**  ( {leftperc}% )
         - **Approximately {days} days!**
-
-
 """
             else:
                 quota_details = ""
@@ -243,12 +237,12 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("How to Deploy?", url="https://youtu.be/hkmc3e7U7R4"),
+                    InlineKeyboardButton("How to Deploy?", url="https://t.me/YN_VIP_Series_ListAndPoster"),
                     InlineKeyboardButton("About Me", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/TroJanzHEX"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/TroJanzSupport")
+                    InlineKeyboardButton("BOT Channel", url="https://t.me/YNmovieone"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/+XTScHquCH0A0ZTQ1")
                 ]
             ]
         ),
@@ -265,7 +259,7 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Unlimited-Filter-Bot")
+                        "SOURCE CODE", url="https://t.me/YoeNaung")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
