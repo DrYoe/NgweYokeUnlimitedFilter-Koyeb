@@ -1,4 +1,4 @@
-FROM python:3.11.0
+FROM python:3.9.10
 WORKDIR /root/bot
 COPY . .
 RUN pip install -U -r requirements.txt
