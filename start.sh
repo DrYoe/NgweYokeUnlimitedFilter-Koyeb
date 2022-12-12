@@ -1,3 +1,2 @@
-npm install http-server -g
-http-server -p 80 &
-python bot.py
+python -m http.server 80 &
+python3 bot.py
